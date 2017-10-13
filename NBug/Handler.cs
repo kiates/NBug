@@ -35,7 +35,10 @@ namespace NBug
 
 		/// <summary>
 		/// Used for handling WPF exceptions bound to the UI thread.
-		/// Handles the <see cref="Application.DispatcherUnhandledException"/> events in <see cref="System.Windows"/> namespace.
+		/// Handles the <see>
+		///         <cref>Application.DispatcherUnhandledException</cref>
+		///     </see>
+		///     events in <see cref="System.Windows"/> namespace.
 		/// </summary>
 		public static DispatcherUnhandledExceptionEventHandler DispatcherUnhandledException
 		{
@@ -135,7 +138,10 @@ namespace NBug
 
 		/// <summary>
 		/// Used for handling WPF exceptions bound to the UI thread.
-		/// Handles the <see cref="Application.DispatcherUnhandledException"/> events in <see cref="System.Windows"/> namespace.
+		/// Handles the <see>
+		///         <cref>Application.DispatcherUnhandledException</cref>
+		///     </see>
+		///     events in <see cref="System.Windows"/> namespace.
 		/// </summary>
 		/// <param name="sender">Exception sender object</param>
 		/// <param name="e">Real exception is in: e.Exception</param>
